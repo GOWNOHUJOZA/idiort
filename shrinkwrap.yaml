@@ -2,6 +2,8 @@ dependencies:
   discord.js: 11.5.1
   fstorm: 0.1.3
   jimp: 0.2.28
+  request: 2.88.0
+  valid-url: 1.0.9
 packages:
   /ajv/6.10.2:
     dependencies:
@@ -673,6 +675,10 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-pW0No1RGHgzlpHJO1nsVrHKpOEIxkGg1xB+v0ZmdNH5OAeAwzAVrCnI2/6Mtx+Uys6iaylxa+D3g4j63IKKjSQ==
+  /valid-url/1.0.9:
+    dev: false
+    resolution:
+      integrity: sha1-HBRHm0DxOXp1eC8RXkCGRHQzogA=
   /verror/1.10.0:
     dependencies:
       assert-plus: 1.0.0
@@ -731,3 +737,5 @@ specifiers:
   discord.js: ^11.3.0
   fstorm: ^0.1.3
   jimp: ^0.2.28
+  request: ^2.88.0
+  valid-url: ^1.0.9
